@@ -15,6 +15,7 @@ use rusoto_core::Region;
 
 use starbucks_stores_api::config::get_config;
 
+/// Creates StarbucksLocations table with indices 
 #[tokio::main]
 async fn main() {
     let table_name = "StarbucksLocations";
