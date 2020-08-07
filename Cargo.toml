@@ -8,6 +8,7 @@ edition = "2018"
 
 [dependencies]
 tokio = { version = "0.2", features = ["macros"] }
+futures = "0.3"
 csv = "1.1"
 serde = "1.0.114"
 serde_derive = "1.0.114"
@@ -16,3 +17,4 @@ dotenv = "0.15.0"
 warp = "0.2"
 rusoto_core = "0.44"
 dynomite = "0.9"
+thiserror = "1.0"
